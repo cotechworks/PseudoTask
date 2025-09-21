@@ -2,22 +2,24 @@
 # Datatypes (KEYWORD1)
 ##########################################
 
-#Stepper     KEYWORD1    Stepper
+CycleTask     KEYWORD1    CycleTask
+OneShotTask   KEYWORD1    OneShotTask
 
 ##########################################
 #  Methods and Functions (KEYWORD2)
 ##########################################
 
-#step        KEYWORD2
-#setSpeed    KEYWORD2
-#version     KEYWORD2
+start         KEYWORD2
+stop          KEYWORD2
+isFired       KEYWORD2
+isActive      KEYWORD2
+update        KEYWORD2
  
 ##########################################
 #  Instances (KEYWORD2)
 ##########################################
- 
-#direction    KEYWORD2
-#speed        KEYWORD2
+
+
 
 ##########################################
   Constants (LITERAL1)

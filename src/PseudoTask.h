@@ -23,6 +23,7 @@ class OneShotTask {
 public:
   OneShotTask();
   void start(int interval);
+  void pause();
   void stop();
   bool isFired(void);
   bool isActive(void);

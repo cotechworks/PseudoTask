@@ -7,7 +7,10 @@ CycleTask::CycleTask(int interval) {
   this->fired = false;
 }
 
-void CycleTask::start(void) { this->active = true; }
+void CycleTask::start(void) {
+  this->active = true;
+  this->last_millis = millis();
+}
 
 void CycleTask::stop(void) { this->active = false; }
 
@@ -39,6 +42,10 @@ OneShotTask::OneShotTask() {
 void OneShotTask::start(int interval) {
   this->time = millis() + static_cast<uint32_t>(interval);
   this->active = true;
+}
+
+void OneShotTask::pause(void) {
+  this->active = false;
 }
 
 void OneShotTask::stop(void) {

@@ -1,0 +1,22 @@
+{
+    "name": "PseudoTask",
+    "version": "1.0.0",
+    "description": "pseudo-task system",
+    "keywords": "task",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/cotechworks/PseudoTask.git"
+    },
+    "authors": [
+        {
+            "name": "CoTechWorks",
+            "email": "cotechworks63@gmail.com",
+            "url": "https://cotechworks.ltt.jp/",
+            "maintainer": true
+        }
+    ],
+    "license": "MIT",
+    "homepage": "https://github.com/cotechworks/PseudoTask",
+    "frameworks": "Arduino",
+    "platforms": "*"
+}
